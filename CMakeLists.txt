@@ -18,7 +18,15 @@ set(OPENGL_LIBRARY /usr/lib/x86_64-linux-gnu/libGL.so)
 # Add include directories for GLEW and GLFW
 include_directories(${GLEW_INCLUDE_DIR} ${GLFW_INCLUDE_DIR})
 
-# Add executable and link required libraries
-add_executable(GraphicsEngine src/main.cpp)
+# Include directories
+include_directories(include)
+
+# Add all source files to the project
+add_executable(GraphicsEngine
+    src/main.cpp
+    src/game.cpp
+    src/renderer.cpp
+)
+
 target_link_libraries(GraphicsEngine ${GLEW_LIBRARY} ${GLFW_LIBRARY} ${OPENGL_LIBRARY})
 
