@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/GraphicsEngine.dir/src/game.cpp.o"
+  "CMakeFiles/GraphicsEngine.dir/src/game.cpp.o.d"
   "CMakeFiles/GraphicsEngine.dir/src/main.cpp.o"
   "CMakeFiles/GraphicsEngine.dir/src/main.cpp.o.d"
+  "CMakeFiles/GraphicsEngine.dir/src/renderer.cpp.o"
+  "CMakeFiles/GraphicsEngine.dir/src/renderer.cpp.o.d"
   "GraphicsEngine"
   "GraphicsEngine.pdb"
 )

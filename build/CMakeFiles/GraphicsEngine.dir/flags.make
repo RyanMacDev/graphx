@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/include/GL -I/usr/include/GLFW
+CXX_INCLUDES = -I/usr/include/GL -I/usr/include/GLFW -I/home/ryan/Documents/dev/cpp_proj/graphics/include
 
 CXX_FLAGS = -std=gnu++17
 
